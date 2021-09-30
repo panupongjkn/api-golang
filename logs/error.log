@@ -1,0 +1,99 @@
+2021-09-08T15:26:00.036+0700	[31mERROR[0m	controller/new.go:118	insert data error: Error 1292: Incorrect datetime value: '' for column 'deleted_at' at row 1
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/echo.(*Echo).AddHandler.func1
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/adapter/echo/echo.go:92
+github.com/labstack/echo/v4.(*Echo).add.func1
+	/Users/panupongjkn/go/pkg/mod/github.com/labstack/echo/v4@v4.5.0/echo.go:544
+github.com/labstack/echo/v4.(*Echo).ServeHTTP
+	/Users/panupongjkn/go/pkg/mod/github.com/labstack/echo/v4@v4.5.0/echo.go:654
+net/http.serverHandler.ServeHTTP
+	/usr/local/Cellar/go/1.15.6/libexec/src/net/http/server.go:2843
+net/http.(*conn).serve
+	/usr/local/Cellar/go/1.15.6/libexec/src/net/http/server.go:1925
+2021-09-08T16:00:23.759+0700	[31mERROR[0m	controller/new.go:118	insert data error: Error 1062: Duplicate entry 'panupong.jkn@gmail.com' for key 'email'
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/echo.(*Echo).AddHandler.func1
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/adapter/echo/echo.go:92
+github.com/labstack/echo/v4.(*Echo).add.func1
+	/Users/panupongjkn/go/pkg/mod/github.com/labstack/echo/v4@v4.5.0/echo.go:544
+github.com/labstack/echo/v4.(*Echo).ServeHTTP
+	/Users/panupongjkn/go/pkg/mod/github.com/labstack/echo/v4@v4.5.0/echo.go:654
+net/http.serverHandler.ServeHTTP
+	/usr/local/Cellar/go/1.15.6/libexec/src/net/http/server.go:2843
+net/http.(*conn).serve
+	/usr/local/Cellar/go/1.15.6/libexec/src/net/http/server.go:1925
+2021-09-08T16:02:06.726+0700	[31mERROR[0m	controller/new.go:118	insert data error: Error 1292: Incorrect datetime value: '2021-09-08 16:01:56.625785 +0700 +07 m=+21.177701792' for column 'updated_at' at row 1
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/echo.(*Echo).AddHandler.func1
+	/Users/panupongjkn/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/adapter/echo/echo.go:92
+github.com/labstack/echo/v4.(*Echo).add.func1
+	/Users/panupongjkn/go/pkg/mod/github.com/labstack/echo/v4@v4.5.0/echo.go:544
+github.com/labstack/echo/v4.(*Echo).ServeHTTP
+	/Users/panupongjkn/go/pkg/mod/github.com/labstack/echo/v4@v4.5.0/echo.go:654
+net/http.serverHandler.ServeHTTP
+	/usr/local/Cellar/go/1.15.6/libexec/src/net/http/server.go:2843
+net/http.(*conn).serve
+	/usr/local/Cellar/go/1.15.6/libexec/src/net/http/server.go:1925
